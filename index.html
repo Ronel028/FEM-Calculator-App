@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+     <main>
+         <div class="container">
+            <div class="title">
+                <h2 class ="title-text-color">calc</h2>
+                <div class="toggle-side">
+                    <h2 class="subtitle-text-color">THEME</h2>
+                    <div class="toggle">
+                        <div class="circle" id="togl"></div>
+                    </div>
+                </div>
+                <div class="theme-indicator">
+                    <li id="one">1</li>
+                    <li id="two">2</li>
+                    <li id="three">3</li>
+                </div>
+            </div>
+            <!-- output field -->
+            <div class="output">
+                <input type="text" value="0" id="output" readonly>
+            </div>
+            <!-- buttons -->
+            <div class="btn-container" id="btn-container">
+                    <button class="number">7</button>
+                    <button class="number">8</button>
+                    <button class="number">9</button>
+                    <button class="btn-bg btn-delete">DEL</button>
+                    <button class="number">4</button>
+                    <button class="number">5</button>
+                    <button class="number">6</button>
+                    <button class="operator">+</button>
+                    <button class="number">1</button>
+                    <button class="number">2</button>
+                    <button class="number">3</button>
+                    <button class="operator">-</button>
+                    <button class="number">.</button>
+                    <button class="number">0</button>
+                    <button class="operator">/</button>
+                    <button class="operator">x</button>
+                    <button class="btn-bg btn-pos1 btn-reset">RESET</button>
+                    <button class="btn-equal-bg btn-pos2 btn-equal">=</button>
+            </div>
+        </div>
+     </main>
+
+     <script src="./script/script.js"></script>
+</body>
+</html>
