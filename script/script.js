@@ -147,11 +147,13 @@ btnOperator.forEach(operator => {
          Operator = e.target.innerText;
          fNumber = num;
          num = '';
+         haveDot = false;
          result.value = '';
     })
 })
 btnEqual.addEventListener('click', function(){
         sNumber = num;
+        haveDot = false;
         num = '';
         result.value = '';
 
